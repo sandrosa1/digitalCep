@@ -1,0 +1,23 @@
+{
+    "name": "sandro/digital-cep",
+    "description": "Busca de Endereços",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sandro",
+            "email": "sandro.sa@fatec.sp.gov.br"
+        }
+    ],
+    "require": {
+        "php": "7.3.18"
+    },
+    "autoload": {
+        "psr-0":{
+            "Search": "src/"
+        },
+        "psr-4":{
+            "sandro\\DigitalCep\\":"src/"
+        }
+    }
+}
